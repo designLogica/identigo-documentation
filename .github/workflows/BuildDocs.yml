@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     name: Deploy
-    runs-on: osx-latest
+    runs-on: macos-latest
     steps:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@main
