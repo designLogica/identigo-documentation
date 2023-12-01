@@ -20,6 +20,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          build_dir: /Users/runner/work/identigo-documentation/identigo-documentation/site
+          build_dir: site/
         env:
           GITHUB_TOKEN: ${ { secrets.GITHUB_TOKEN } }
