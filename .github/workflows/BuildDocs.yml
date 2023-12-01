@@ -2,6 +2,8 @@ name: Deploy Identigo Docs
 on:
   pull_request: 
     branches: ["main"]
+permissions:
+  contents: write
 jobs:
   build:
     name: Deploy
