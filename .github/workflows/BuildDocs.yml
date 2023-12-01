@@ -1,6 +1,6 @@
 name: Deploy Identigo Docs
 on:
-  push:
+  pull_request: 
     branches: ["main"]
 jobs:
   build:
@@ -8,7 +8,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: "Checkout GitHub Action"
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - name: "Build and deploy"
         shell: bash
