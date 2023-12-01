@@ -16,10 +16,7 @@ jobs:
           brew install doctave/doctave/doctave
           doctave build --release --allow-failed-checks
 
-      - name: GitHub Pages
-        if: github.ref == 'refs/heads/main'
-        uses: crazy-max/ghaction-github-pages@v2.6.0
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          build_dir: site/
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          folder: site
