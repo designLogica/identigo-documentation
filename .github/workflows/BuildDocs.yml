@@ -2,7 +2,6 @@ name: Deploy Identigo Docs
 on:
   push:
     branches: ["main"]
-
 jobs:
   build:
     name: Deploy
@@ -23,4 +22,4 @@ jobs:
         with:
           build_dir: site/
         env:
-          GITHUB_TOKEN: { { secrets.GITHUB_TOKEN } }
+          GITHUB_TOKEN: ${ { secrets.GITHUB_TOKEN } }
