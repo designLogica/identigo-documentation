@@ -3,12 +3,9 @@ on:
   push:
     branches: ["main"]
 jobs:
-  homebrew:
-    name: Setup Homebrew
-    uses: Homebrew/actions/setup-homebrew@master
   build:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: osx-latest
     steps:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@main
