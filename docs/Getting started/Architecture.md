@@ -5,11 +5,13 @@ title: 01. Architecture
 
 Identigo is pretty simple really, there are apps and there are users.
 
-##### Users can belong to many apps
+{% success Users can belong to many apps %}
 Users then have roles and attributes assigned to them for each app.
+{% end %}
 
-##### Apps have roles and attributes
+{% success Apps have roles and attributes %}
 Only roles and attributes configured on the app can be assigned to a user of that app.
+{% end %}
 
 ## Types of login
 
