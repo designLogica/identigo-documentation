@@ -1,5 +1,5 @@
 ---
-title: 02.Creating the primary admin user
+title: 03. Primary User
 ---
 ### Creating the primary admin user
 
