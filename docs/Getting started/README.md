@@ -3,4 +3,4 @@ title: Getting Started
 ---
 # Getting Started
 
-This is the getting started section
+Get up and running with Identigo
