@@ -5,7 +5,7 @@ title: 04. Apps
 
 Apps are really the starting point of getting things working in Identigo.
 
-As explained in <a href="https://docs.identigo.org/Getting Started/Architecture">here</a>
+As explained in <a href="https://docs.identigo.org/Getting started/Architecture">here</a>
 
 When Identigo starts for the first time it will create its default app of Identigo. This is what it will use when you login to the admin UI.
 
