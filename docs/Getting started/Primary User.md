@@ -1,7 +1,7 @@
 ---
 title: 03. Primary User
 ---
-### Creating the primary admin user
+# Creating the primary admin user
 
 Navigate to the admin panel at <a href="http://localhost:3000/admin">localhost:3000/admin</a>
 

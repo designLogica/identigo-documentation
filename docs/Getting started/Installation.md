@@ -1,5 +1,5 @@
 ---
-title: 02. Creating the primary admin user
+title: 01. Installation
 ---
 # Installation
 
