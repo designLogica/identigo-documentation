@@ -1,4 +1,8 @@
-# Typescript Server SDK
+---
+title: Typescript Node SDK
+---
+
+# Typescript Node SDK
 
 This SDK is to be used in a nodejs app. It allows you to do a few key things.
 
